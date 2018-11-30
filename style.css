@@ -1,0 +1,22 @@
+body {
+  background: black;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+canvas {
+  margin:auto;
+}
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+#shannon {
+  position: fixed;
+  bottom: 1vh;
+  max-width: 100%;
+  max-height: 100%;
+  transform-origin: bottom right;
+  transform:
+    rotate(22deg);
+}
