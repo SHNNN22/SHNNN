@@ -30,7 +30,7 @@ function setup() {
     sinkholes.push(sink)
   }
   // shannon.style('transform', 'rotate(-90deg)')
-  shannon = createImg('https://66.media.tumblr.com/abacf4831f612598ef776e601085ba68/tumblr_og2kfnCs9C1r2poiwo1_1280.png', 'Shannon').id('shannon')
+  // shannon = createImg('https://66.media.tumblr.com/abacf4831f612598ef776e601085ba68/tumblr_og2kfnCs9C1r2poiwo1_1280.png', 'Shannon').id('shannon')
 }
 
 function windowResized() {
