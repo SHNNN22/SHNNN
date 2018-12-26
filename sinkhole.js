@@ -10,6 +10,9 @@ class Sinkhole {
     this.xspeed = 4
     this.yspeed = -3
   }
+  windowResized() {
+    this.size(50, 50)
+  }
   move() {
     this.x = this.x + this.xspeed
     this.y = this.y + this.yspeed
