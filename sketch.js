@@ -36,7 +36,6 @@ function draw() {
   //show and animate sinkholes/imgs
   for (let s of sinkholes) {
     s.show()
-    s.windowResized()
     s.move()
     s.bounce()
   }
