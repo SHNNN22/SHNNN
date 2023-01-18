@@ -3,8 +3,9 @@ class Sinkhole {
   constructor() {
     this.img = pics[0]
     setInterval(() => this.img = pics[Math.floor(random(pics.length))], 2222)
-    this.width = this.img.width/2
-    this.height = this.img.height/2
+    this.ratio = this.img.height/this.img.width
+    this.width = windowWidth*this.ratio/2
+    this.height = this.width*this.ratio
     this.x = random(windowWidth - this.width)
     this.y = random(windowHeight - this.height)
     this.xspeed = 4
